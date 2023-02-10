@@ -3,6 +3,8 @@
   --white: #f2f2f2;
   --brown: #736156;
   --shadow: #0000004d;
+  --dark-grey: #262625;
+  --light-grey: #babdbf;
 }
 
 body {
@@ -87,9 +89,9 @@ a:hover, a:focus {
   padding-bottom: 16px;
 }
 
-.profile__portrait {
+.profile-portrait {
   float: left;
-  width: 250px;
+  width: 240px;
   margin-right: 16px;
   border-radius: 50%;
 }
@@ -119,7 +121,7 @@ a:hover, a:focus {
 
 .social-media__icon {
   padding-inline: 8px;
-  width: 6%;
+  max-width: 40px;
 }
 
 .navigation-list {
@@ -241,6 +243,13 @@ a:hover, a:focus {
 }
 
 .svg-content {
-  width: 106.1%;
+  max-width: 700px;
 }
- 
+
+.svg-container {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 733px;
+  z-index: -1;
+}
