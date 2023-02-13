@@ -2,7 +2,7 @@ body {
   background: #f2f2f2; 
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 19px;
   line-height: 1.6;
   text-align: center;
   color: #0d0d0d;
@@ -22,17 +22,17 @@ body {
 }
 
 h1 {
-font-size: 30px;
+font-size: 31px;
 font-weight: 600;
 }
 
 h2 {
-font-size: 24px;
+font-size: 25px;
 font-weight: 600;
 }
 
 h3 {
-font-size: 18px;
+font-size: 19px;
 font-weight: 600;
 }
 
@@ -134,7 +134,7 @@ text-align: right;
 
 .social-media__icon {
 padding-inline: 8px;
-max-width: 38px;
+max-width: 40px;
 }
 
 .navigation-list {
@@ -147,12 +147,8 @@ display: inline-block;
 margin-left: 8px;
 }
 
-.navigation-list__item { 
-text-decoration: underline;
-}
-
 .navigation-list__item--active {
-text-decoration: none;
+font-weight: 500;
 }
 
 .grid_item {

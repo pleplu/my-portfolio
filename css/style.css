@@ -11,7 +11,7 @@ body {
     background: var(--white); 
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 19px;
     line-height: 1.6;
     text-align: center;
     color: var(--black);
@@ -29,17 +29,17 @@ body {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 31px;
   font-weight: 600;
 }
   
 h2 {
-  font-size: 24px;
+  font-size: 25px;
   font-weight: 600;
 }
   
 h3 {
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 600;
 }
 
@@ -133,13 +133,9 @@ a:hover, a:focus {
   display: inline-block;
   margin-left: 8px;
 }
-  
-.navigation-list__item { 
-  text-decoration: underline;
-}
 
 .navigation-list__item--active {
-  text-decoration: none;
+  font-weight: 500;
 }
 
 .grid_item {
