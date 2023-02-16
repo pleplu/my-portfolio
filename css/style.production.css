@@ -6,12 +6,12 @@ body {
   line-height: 1.6;
   text-align: center;
   color: #0d0d0d;
-  max-width: 700px;
-  height: 900px;
+  max-width: 75%;
+  max-height: 75%;
   margin: 0px auto;
   padding: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   -webkit-box-shadow: 0 0 10px 10px #0000004d;
           box-shadow: 0 0 10px 10px #0000004d;
 }
@@ -71,14 +71,23 @@ background-color: #006cda;
 padding: 2px;
 }
 
+.experience {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.experience__item {
+  padding-inline: 16px;
+}
+
 #contact-form {
 display: -webkit-box;
 display: -ms-flexbox;
 display: flex;
 -webkit-box-orient: horizontal;
 -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-        flex-direction: row;
+    -ms-flex-direction: column;
+        flex-direction: column;
 -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 -webkit-box-pack: center;
@@ -89,6 +98,11 @@ display: flex;
 .contact-form__item {
 padding-inline: 8px;
 padding-bottom: 16px;
+}
+
+.profile-intro {
+  margin: 0 auto;
+  max-width: 75%;
 }
 
 .profile-portrait {
@@ -151,11 +165,6 @@ margin-left: 8px;
 font-weight: 500;
 }
 
-.grid_item {
-display: inline-block;
-width: 33%;
-}
-
 @supports (display: grid) {
 .grid {
   display: -ms-grid;
@@ -174,6 +183,7 @@ width: 33%;
     min-height: auto;
     margin: 0;
     padding: 8px;
+    background-color: #babdbf;
 }
   
 .grid__item:first-child {
@@ -302,13 +312,14 @@ to {
 }
 
 .svg-content {
-  max-width: 700px;
+  max-width: 100%;
 }
 
 .svg-container {
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  top: 733px;
+  position: relative;
+  top: 28px;
+  bottom: 0;
+  left: 0;
+  right: 0;
   z-index: -1;
 }
