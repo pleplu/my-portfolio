@@ -197,7 +197,7 @@ font-weight: 500;
 }
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 300px) {
 .grid {
   -ms-grid-columns: 1fr;
   grid-template-columns: 1fr;
@@ -209,7 +209,7 @@ h1 {
 }
 }
 
-@media all and (min-width: 500px) and (max-width: 600px) {
+@media all and (min-width: 300px) and (max-width: 600px) {
 .grid {
   -ms-grid-columns: 1fr 8px 1fr;
   grid-template-columns: 1fr 1fr;
