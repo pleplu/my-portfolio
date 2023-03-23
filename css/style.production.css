@@ -22,6 +22,11 @@
           box-shadow: 0 0 10px 10px #0000004d;
 }
 
+#background {
+  position: fixed;
+  z-index: -999;
+}
+
 #background--img {
   position: fixed;
   z-index: -999;
